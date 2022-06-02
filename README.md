@@ -1,3 +1,5 @@
 # Desafio de Projeto DIO
-## Primeiro desafio de projeto - DIO
 Desafio de criação de repositório
+
+## Primeiro desafio de projeto - DIO
+Acompanhamento de BootCamp da DIO, estudos e criação de projetos referente ao curso.
