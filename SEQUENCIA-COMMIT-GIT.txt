@@ -1,0 +1,7 @@
+git status
+git add <local>
+git commit <local> -m "txt"
+git push(pull) origin master
+git status
+
+git clone <HTTPS>
