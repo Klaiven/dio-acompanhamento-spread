@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos Align Content</title>
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid;
+        }
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            flex: 1;
+            margin: 5px;
+            text-align: center;
+            color: white;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+        .flex-end{
+            align-content: flex-end;
+        }
+        .around{
+            align-content: space-around;
+        }
+        .between{
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">molestiae hic, voluptatibus et tenetur ut ducimus maiores eos. Mollitia, sint! </div>
+        <div class="item">laboriosam explicabo voluptas harum labore exercitationem</div>
+        <div class="item"> voluptatibus et tenetur ut ducimus maiores eos. Mollitia, sint!</div>
+        <div class="item">voluptatibus et tenetur ut ducimus</div>
+        <div class="item">dignissimos, laboriosam explicabo voluptas harum labore exercitationem</div>
+        <div class="item">laboriosam explicabo voluptas</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur</div>
+    </div>
+
+    <p>center</p>
+    <div class="container center">
+        <div class="item">molestiae hic, voluptatibus et tenetur ut ducimus maiores eos. Mollitia, sint! </div>
+        <div class="item">laboriosam explicabo voluptas harum labore exercitationem</div>
+        <div class="item"> voluptatibus et tenetur ut ducimus maiores eos. Mollitia, sint!</div>
+        <div class="item">voluptatibus et tenetur ut ducimus</div>
+        <div class="item">dignissimos, laboriosam explicabo voluptas harum labore exercitationem</div>
+        <div class="item">laboriosam explicabo voluptas</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur</div>
+    </div>
+
+    <p>flex start</p>
+    <div class="container flex-start">
+        <div class="item">molestiae hic, voluptatibus et tenetur ut ducimus maiores eos. Mollitia, sint! </div>
+        <div class="item">laboriosam explicabo voluptas harum labore exercitationem</div>
+        <div class="item"> voluptatibus et tenetur ut ducimus maiores eos. Mollitia, sint!</div>
+        <div class="item">voluptatibus et tenetur ut ducimus</div>
+        <div class="item">dignissimos, laboriosam explicabo voluptas harum labore exercitationem</div>
+        <div class="item">laboriosam explicabo voluptas</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur</div>
+    </div>
+
+    <p>flex end</p>
+    <div class="container flex-end">
+        <div class="item">molestiae hic, voluptatibus et tenetur ut ducimus maiores eos. Mollitia, sint! </div>
+        <div class="item">laboriosam explicabo voluptas harum labore exercitationem</div>
+        <div class="item"> voluptatibus et tenetur ut ducimus maiores eos. Mollitia, sint!</div>
+        <div class="item">voluptatibus et tenetur ut ducimus</div>
+        <div class="item">dignissimos, laboriosam explicabo voluptas harum labore exercitationem</div>
+        <div class="item">laboriosam explicabo voluptas</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur</div>
+    </div>
+
+    <p>space around</p>
+    <div class="container around">
+        <div class="item">molestiae hic, voluptatibus et tenetur ut ducimus maiores eos. Mollitia, sint! </div>
+        <div class="item">laboriosam explicabo voluptas harum labore exercitationem</div>
+        <div class="item"> voluptatibus et tenetur ut ducimus maiores eos. Mollitia, sint!</div>
+        <div class="item">voluptatibus et tenetur ut ducimus</div>
+        <div class="item">dignissimos, laboriosam explicabo voluptas harum labore exercitationem</div>
+        <div class="item">laboriosam explicabo voluptas</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur</div>
+    </div>
+
+    <p>space between</p>
+    <div class="container between">
+        <div class="item">molestiae hic, voluptatibus et tenetur ut ducimus maiores eos. Mollitia, sint! </div>
+        <div class="item">laboriosam explicabo voluptas harum labore exercitationem</div>
+        <div class="item"> voluptatibus et tenetur ut ducimus maiores eos. Mollitia, sint!</div>
+        <div class="item">voluptatibus et tenetur ut ducimus</div>
+        <div class="item">dignissimos, laboriosam explicabo voluptas harum labore exercitationem</div>
+        <div class="item">laboriosam explicabo voluptas</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur</div>
+    </div>
+</body>
+</html>
