@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos Align Self</title>
+    
+    <style>
+        .container{
+            display: flex;
+            max-width: 350px;
+            border: 1px solid;
+            margin-bottom: 10px;
+        }
+        .item{
+            background-color: blueviolet;
+            color: white;
+            margin: 5px;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .align-container{
+            align-items: center;
+        }
+
+        .center{
+            align-self: center;
+        }
+        .start{
+            align-self: flex-start;
+        }
+        .end{
+            align-self: flex-end;
+        }
+        .baseline{
+            align-self: baseline;
+        }
+        .stretch{
+            align-self: stretch;
+        }
+    </style>
+</head>
+<body>
+    <P>auto</P>
+    <section class="container align-container">
+        <div class="item">AAA</div>
+        <div class="item">123</div>
+        <div class="item">Lorem ipsum dolor sit amet </div>
+        <div class="item">ITEM 4</div>
+    </section>
+
+    <P>center</P>
+    <section class="container">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </div>
+        <div class="item end">ITEM 4</div>
+    </section>
+</body>
+</html>
